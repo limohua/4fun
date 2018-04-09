@@ -1,0 +1,45 @@
+tune2fs 1.42.9 (28-Dec-2013)
+Filesystem volume name:   <none>
+Last mounted on:          /
+Filesystem UUID:          27f9be47-838b-4155-b20b-e4c5e013cdf3
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize
+Filesystem flags:         signed_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              2555904
+Block count:              10223360
+Reserved block count:     511168
+Free blocks:              9680932
+Free inodes:              2521928
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Group descriptor size:    64
+Reserved GDT blocks:      1024
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         8192
+Inode blocks per group:   512
+Flex block group size:    16
+Filesystem created:       Tue Nov  7 14:28:24 2017
+Last mount time:          Mon Apr  9 17:35:06 2018
+Last write time:          Mon Apr  9 17:35:00 2018
+Mount count:              14
+Maximum mount count:      -1
+Last checked:             Tue Nov  7 14:28:24 2017
+Check interval:           0 (<none>)
+Lifetime writes:          3539 MB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          256
+Required extra isize:     28
+Desired extra isize:      28
+Journal inode:            8
+Default directory hash:   half_md4
+Directory Hash Seed:      d8ab8f4d-2caf-4a51-a9a9-be042a02a570
+Journal backup:           inode blocks
