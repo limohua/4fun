@@ -1,0 +1,4 @@
+NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+vda    253:0    0  40G  0 disk 
+├─vda1 253:1    0   1G  0 part /boot
+└─vda2 253:2    0  39G  0 part /
