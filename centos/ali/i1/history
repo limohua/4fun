@@ -1,0 +1,37 @@
+    1  cd /var/log/
+    2  ls
+    3  vim messages 
+    4  yum install pciutils git -y
+    5  git clone https://github.com/limohua/4fun.git
+    6  mv 4fun/ /root/
+    7  cd /root/4fun
+    8  ls
+    9  ls -lrt
+   10  cd centos
+   11  ls
+   12  cd ali
+   13  ls
+   14  vim /etc/cloud/cloud.cfg
+   15  ls -lrt
+   16  mkdir i1
+   17  cp c5/get.sh i1
+   18  cd i1
+   19  ls
+   20  ls -lrt
+   21  vim get.sh
+   22  lsblk
+   23  lspci
+   24  lsmod | grep hio
+   25  lsmod 
+   26  lsmod | grep nvme
+   27  ls -lrt
+   28  bash get.sh
+   29  lsblk
+   30  cat get.sh
+   31  cat /sys/block/vdb/queue/scheduler 
+   32  cat /sys/block/vda/queue/scheduler 
+   33  cp -r  /etc/cloud/ .
+   34  vim rpm-va.output 
+   35  ls /usr/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py
+   36  rpm -qf  /usr/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py
+ python2-pip-8.1.2-5.el7.noarch

@@ -1,0 +1,104 @@
+  UNIT                                                                        LOAD   ACTIVE SUB       DESCRIPTION
+  proc-sys-fs-binfmt_misc.automount                                           loaded active waiting   Arbitrary Executable File Formats File System Automount Point
+  sys-devices-pci0000:00-0000:00:03.0-virtio0-net-eth0.device                 loaded active plugged   Virtio network device
+  sys-devices-pci0000:00-0000:00:04.0-virtio1-virtio\x2dports-vport1p1.device loaded active plugged   /sys/devices/pci0000:00/0000:00:04.0/virtio1/virtio-ports/vport1p1
+  sys-devices-pci0000:00-0000:00:05.0-virtio2-block-vda-vda1.device           loaded active plugged   /sys/devices/pci0000:00/0000:00:05.0/virtio2/block/vda/vda1
+  sys-devices-pci0000:00-0000:00:05.0-virtio2-block-vda.device                loaded active plugged   /sys/devices/pci0000:00/0000:00:05.0/virtio2/block/vda
+  sys-devices-pci0000:00-0000:00:06.0-virtio3-block-vdb.device                loaded active plugged   /sys/devices/pci0000:00/0000:00:06.0/virtio3/block/vdb
+  sys-devices-pci0000:00-0000:00:07.0-virtio4-block-vdc.device                loaded active plugged   /sys/devices/pci0000:00/0000:00:07.0/virtio4/block/vdc
+  sys-devices-platform-serial8250-tty-ttyS1.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS2.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS3.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-pnp0-00:04-tty-ttyS0.device                                     loaded active plugged   /sys/devices/pnp0/00:04/tty/ttyS0
+  sys-module-configfs.device                                                  loaded active plugged   /sys/module/configfs
+  sys-subsystem-net-devices-eth0.device                                       loaded active plugged   Virtio network device
+  -.mount                                                                     loaded active mounted   /
+  dev-hugepages.mount                                                         loaded active mounted   Huge Pages File System
+  dev-mqueue.mount                                                            loaded active mounted   POSIX Message Queue File System
+  run-user-0.mount                                                            loaded active mounted   /run/user/0
+  sys-kernel-config.mount                                                     loaded active mounted   Configuration File System
+  sys-kernel-debug.mount                                                      loaded active mounted   Debug File System
+  brandbot.path                                                               loaded active waiting   Flexible branding
+  systemd-ask-password-plymouth.path                                          loaded active waiting   Forward Password Requests to Plymouth Directory Watch
+  systemd-ask-password-wall.path                                              loaded active waiting   Forward Password Requests to Wall Directory Watch
+  session-1.scope                                                             loaded active running   Session 1 of user root
+  aegis.service                                                               loaded active running   LSB: aegis update.
+  agentwatch.service                                                          loaded active exited    SYSV: Starts and stops guest agent
+  aliyun.service                                                              loaded active running   auto run aliyunservice or agent
+  atd.service                                                                 loaded active running   Job spooling tools
+  auditd.service                                                              loaded active running   Security Auditing Service
+  cloud-config.service                                                        loaded active exited    Apply the settings specified in cloud-config
+  cloud-final.service                                                         loaded active exited    Execute cloud user/final scripts
+  cloud-init-local.service                                                    loaded active exited    Initial cloud-init job (pre-networking)
+● cloud-init-upgrade.service                                                  loaded failed failed    cloud-init upgrade service
+  cloud-init.service                                                          loaded active exited    Initial cloud-init job (metadata service crawler)
+  crond.service                                                               loaded active running   Command Scheduler
+  dbus.service                                                                loaded active running   D-Bus System Message Bus
+  getty@tty1.service                                                          loaded active running   Getty on tty1
+  irqbalance.service                                                          loaded active running   irqbalance daemon
+  kdump.service                                                               loaded active exited    Crash recovery kernel arming
+  kmod-static-nodes.service                                                   loaded active exited    Create list of required static device nodes for the current kernel
+  network.service                                                             loaded active running   LSB: Bring up/down networking
+  ntpd.service                                                                loaded active running   Network Time Service
+  polkit.service                                                              loaded active running   Authorization Manager
+● postfix.service                                                             loaded failed failed    Postfix Mail Transport Agent
+  rhel-dmesg.service                                                          loaded active exited    Dump dmesg to /var/log/dmesg
+  rhel-import-state.service                                                   loaded active exited    Import network configuration from initramfs
+  rhel-readonly.service                                                       loaded active exited    Configure read-only root support
+  rsyslog.service                                                             loaded active running   System Logging Service
+  serial-getty@ttyS0.service                                                  loaded active running   Serial Getty on ttyS0
+  sshd-keygen.service                                                         loaded active exited    OpenSSH Server Key Generation
+  sshd.service                                                                loaded active running   OpenSSH server daemon
+  sysstat.service                                                             loaded active exited    Resets System Activity Logs
+  systemd-fsck-root.service                                                   loaded active exited    File System Check on Root Device
+  systemd-journal-flush.service                                               loaded active exited    Flush Journal to Persistent Storage
+  systemd-journald.service                                                    loaded active running   Journal Service
+  systemd-logind.service                                                      loaded active running   Login Service
+  systemd-random-seed.service                                                 loaded active exited    Load/Save Random Seed
+  systemd-remount-fs.service                                                  loaded active exited    Remount Root and Kernel File Systems
+  systemd-sysctl.service                                                      loaded active exited    Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service                                          loaded active exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                              loaded active exited    Create Volatile Files and Directories
+  systemd-udev-trigger.service                                                loaded active exited    udev Coldplug all Devices
+  systemd-udevd.service                                                       loaded active running   udev Kernel Device Manager
+  systemd-update-utmp.service                                                 loaded active exited    Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                                               loaded active exited    Permit User Sessions
+  systemd-vconsole-setup.service                                              loaded active exited    Setup Virtual Console
+  tuned.service                                                               loaded active running   Dynamic System Tuning Daemon
+  -.slice                                                                     loaded active active    Root Slice
+  system-getty.slice                                                          loaded active active    system-getty.slice
+  system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice               loaded active active    system-selinux\x2dpolicy\x2dmigrate\x2dlocal\x2dchanges.slice
+  system-serial\x2dgetty.slice                                                loaded active active    system-serial\x2dgetty.slice
+  system.slice                                                                loaded active active    System Slice
+  user-0.slice                                                                loaded active active    User Slice of root
+  user.slice                                                                  loaded active active    User and Session Slice
+  dbus.socket                                                                 loaded active running   D-Bus System Message Bus Socket
+  systemd-initctl.socket                                                      loaded active listening /dev/initctl Compatibility Named Pipe
+  systemd-journald.socket                                                     loaded active running   Journal Socket
+  systemd-shutdownd.socket                                                    loaded active listening Delayed Shutdown Socket
+  systemd-udevd-control.socket                                                loaded active running   udev Control Socket
+  systemd-udevd-kernel.socket                                                 loaded active running   udev Kernel Socket
+  basic.target                                                                loaded active active    Basic System
+  cloud-config.target                                                         loaded active active    Cloud-config availability
+  cryptsetup.target                                                           loaded active active    Encrypted Volumes
+  getty.target                                                                loaded active active    Login Prompts
+  local-fs-pre.target                                                         loaded active active    Local File Systems (Pre)
+  local-fs.target                                                             loaded active active    Local File Systems
+  multi-user.target                                                           loaded active active    Multi-User System
+  network-online.target                                                       loaded active active    Network is Online
+  network.target                                                              loaded active active    Network
+  paths.target                                                                loaded active active    Paths
+  remote-fs.target                                                            loaded active active    Remote File Systems
+  slices.target                                                               loaded active active    Slices
+  sockets.target                                                              loaded active active    Sockets
+  swap.target                                                                 loaded active active    Swap
+  sysinit.target                                                              loaded active active    System Initialization
+  timers.target                                                               loaded active active    Timers
+  systemd-tmpfiles-clean.timer                                                loaded active waiting   Daily Cleanup of Temporary Directories
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+96 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
