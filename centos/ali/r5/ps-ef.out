@@ -1,0 +1,74 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 19:48 ?        00:00:00 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 19:48 ?        00:00:00 [kthreadd]
+root         3     2  0 19:48 ?        00:00:00 [ksoftirqd/0]
+root         4     2  0 19:48 ?        00:00:00 [kworker/0:0]
+root         5     2  0 19:48 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 19:48 ?        00:00:00 [kworker/u4:0]
+root         7     2  0 19:48 ?        00:00:00 [migration/0]
+root         8     2  0 19:48 ?        00:00:00 [rcu_bh]
+root         9     2  0 19:48 ?        00:00:00 [rcu_sched]
+root        10     2  0 19:48 ?        00:00:00 [watchdog/0]
+root        11     2  0 19:48 ?        00:00:00 [watchdog/1]
+root        12     2  0 19:48 ?        00:00:00 [migration/1]
+root        13     2  0 19:48 ?        00:00:00 [ksoftirqd/1]
+root        14     2  0 19:48 ?        00:00:00 [kworker/1:0]
+root        15     2  0 19:48 ?        00:00:00 [kworker/1:0H]
+root        17     2  0 19:48 ?        00:00:00 [kdevtmpfs]
+root        18     2  0 19:48 ?        00:00:00 [netns]
+root        19     2  0 19:48 ?        00:00:00 [khungtaskd]
+root        20     2  0 19:48 ?        00:00:00 [writeback]
+root        21     2  0 19:48 ?        00:00:00 [kintegrityd]
+root        22     2  0 19:48 ?        00:00:00 [bioset]
+root        23     2  0 19:48 ?        00:00:00 [kblockd]
+root        24     2  0 19:48 ?        00:00:00 [md]
+root        25     2  0 19:48 ?        00:00:00 [kworker/0:1]
+root        26     2  0 19:48 ?        00:00:00 [kworker/1:1]
+root        31     2  0 19:48 ?        00:00:00 [kswapd0]
+root        32     2  0 19:48 ?        00:00:00 [ksmd]
+root        33     2  0 19:48 ?        00:00:00 [khugepaged]
+root        34     2  0 19:48 ?        00:00:00 [crypto]
+root        42     2  0 19:48 ?        00:00:00 [kthrotld]
+root        43     2  0 19:48 ?        00:00:00 [kworker/u4:1]
+root        44     2  0 19:48 ?        00:00:00 [kmpath_rdacd]
+root        45     2  0 19:48 ?        00:00:00 [kpsmoused]
+root        46     2  0 19:48 ?        00:00:00 [ipv6_addrconf]
+root        65     2  0 19:48 ?        00:00:00 [deferwq]
+root        99     2  0 19:48 ?        00:00:00 [kauditd]
+root       100     2  0 19:48 ?        00:00:00 [kworker/0:2]
+root       221     2  0 19:48 ?        00:00:00 [ata_sff]
+root       222     2  0 19:48 ?        00:00:00 [scsi_eh_0]
+root       223     2  0 19:48 ?        00:00:00 [scsi_tmf_0]
+root       224     2  0 19:48 ?        00:00:00 [scsi_eh_1]
+root       225     2  0 19:48 ?        00:00:00 [scsi_tmf_1]
+root       226     2  0 19:48 ?        00:00:00 [kworker/u4:2]
+root       227     2  0 19:48 ?        00:00:00 [kworker/u4:3]
+root       231     2  0 19:48 ?        00:00:00 [kworker/1:2]
+root       247     2  0 19:48 ?        00:00:00 [ttm_swap]
+root       261     2  0 19:48 ?        00:00:00 [kworker/0:1H]
+root       262     2  0 19:48 ?        00:00:00 [kworker/1:1H]
+root       267     2  0 19:48 ?        00:00:00 [jbd2/vda1-8]
+root       268     2  0 19:48 ?        00:00:00 [ext4-rsv-conver]
+root       336     1  0 19:48 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root       359     1  0 19:48 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       410     1  0 19:48 ?        00:00:00 /sbin/auditd
+root       456     2  0 19:48 ?        00:00:00 [edac-poller]
+dbus       476     1  0 19:48 ?        00:00:00 /bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       477     1  0 19:48 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root       481     1  0 19:48 ?        00:00:00 /usr/lib/systemd/systemd-logind
+polkitd    482     1  0 19:48 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root       484     1  0 19:48 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       489     1  0 19:48 ?        00:00:00 /usr/sbin/crond -n
+root       491     1  0 19:48 ?        00:00:00 /usr/sbin/atd -f
+root       502     1  0 19:48 ?        00:00:00 login -- root
+root       503     1  0 19:48 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root       770     1  0 19:48 ?        00:00:00 /sbin/dhclient -1 -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid eth0
+root       853     1  0 19:48 ?        00:00:00 /usr/bin/python -Es /usr/sbin/tuned -l -P
+ntp        871     1  0 19:48 ?        00:00:00 /usr/sbin/ntpd -u ntp:ntp -g
+root      3004     1  0 19:48 ?        00:00:00 /usr/local/aegis/aegis_update/AliYunDunUpdate
+root      3433     1  0 19:48 ?        00:00:00 /usr/sbin/sshd -D
+root      4120     1  0 19:48 ?        00:00:00 /usr/sbin/aliyun-service
+root      9126   502  0 19:49 tty1     00:00:00 -bash
+root      9147     1  0 19:49 ?        00:00:00 /usr/local/aegis/aegis_client/aegis_10_41/AliYunDun
+root     10582  9126  0 19:51 tty1     00:00:00 bash get.sh
+root     11223 10582  0 19:51 tty1     00:00:00 ps -ef
